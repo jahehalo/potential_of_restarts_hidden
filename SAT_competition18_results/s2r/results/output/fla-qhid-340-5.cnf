@@ -1,0 +1,206 @@
+c ====================[ Coprocessor 7.1.0                    v7.1.0-dirty ]================================
+c | Norbert Manthey. The use of the tool is limited to research only!                                     |
+c | Contributors:                                                                                         |
+c |     Kilian Gebhard                                                                                    |
+c |     Lucas Kahlert, Franziska Krüger, Aaron Stephan                                                    |
+c ============================[ Problem Statistics ]=======================================================
+c |                                                                                                       |
+c |  Number of variables:           340                                                                  |
+c |  Number of clauses:            1870                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c [STAT] CP3 0.015403 s-ppTime, 0 s-ipTime, 0.0154023 s-ppwTime, 0 s-ipwTime, 9 MB, ok 0.000759 s-ohTime, 
+c [STAT] CP3(2) 2871 cls, 0 learnts, -1001 rem-cls, 0 rem-learnts, 
+c [STAT] UP 7e-06 s, 0 units, 0 cls, 0 lits
+c [STAT] SuSi(1) 0.00125 s, 2 cls,  with 9 lits, 0 strengthed 
+c [STAT] SuSi(2) 50892 subs-steps, 24485 strenght-steps, 0 increases, 0.000819s strengthening 
+c [STAT] EE 0.000856 s, 0 steps 0 ee-lits 0 removedCls, 0 removedSubCls,
+c [STAT] EE-gate 6e-05 s, 0 steps, 0.000666 extractGateTime, 
+c [STAT] BVE(1) 0.001862 s, 0.000984 s spent on subsimp, 49 vars tested, 49 anticipations, 579 vars skipped, 3351 checks, 
+c [STAT] BVE(2) 472 rem cls, with 1483 lits, 0 learnts rem, with 0 lits, 1475 new cls, with 6208 lits, 0 new learnts, with 0 lits, 
+c [STAT] BVE(3) 33 vars eliminated, 0 units enqueued, 0 BC removed, with 0 lits, 0 blocked learnts removed, with 0 lits, 
+c [STAT] BVE(4) 0 gateDefs, 0 usedGates, 0 gateSeconds, 
+c [STAT] BVE(5) 33 incElims, 0 keepElims, 0 decElims, 1003 totalAdds,
+c [STAT] UNHIDE 0.001483 s, 0 cls, 0 totalLits, 0 lits 
+c [STAT] UNHIDE(2) 0 prSecs, 0 prSteps, 0 L1units, 0 L2units, 0 L3units, 0 L4units, 0 L5units, 
+c [STAT] UNHIDE(3) 0 EE-checks, 0 EE-cands, 0 EEs 
+c [STAT] XOR 0.001397s, 0.001321 parse-s, 5.2e-05 reason-s, 
+c [STAT] XOR(2) 0 xors, 0 subXors, 0 resXors, 0 clauses, 0 resClauses, 0 resTauts, 0 resStrength, 4736 findChecks, 
+c [STAT] XOR(3) 0 steps, 680 empties, 0 listUnits, 0 useLists, 0 xorUnits, 0 eqs, 
+c [STAT] XOR(4) 2867 participating, 0.8571 ratio, 0 simDecisions, 0 xorProps, 0 clsProps, 
+c [STAT] BCE 0.002136 seconds, 21044 steps, 1226 testLits, 0 remBCE, 0 BCMs, 0 BCMcands, 0 BCMlits, 
+c [STAT] CLE 0 remCLE, 0 cleUnits, 
+c [STAT] BCE-CLA 0 seconds, 0 steps, 0 testLits, 0 extClss, 0 extLits, 0 possibles, 
+c [STAT] FM 0.005313 s, 0.000175 amo-s, 0.008257 fm-s, 0.001079 amt-s, 0 amos, 0 amts, 0 sameUnits, 0 deducedUnits, 0 propUnits, 0 cls, 0 steps, 29011 searchSteps, 0 addDups, 
+c [STAT] FM(2) 0 irregulars, 0 pureAmoLits, 0 diff, 0 discards, 0 addedCs, 0 removedCs, 0 newAmos, 0 discardedNewAmos, 
+c [STAT] FM(3) 0 newAmoBinCls, 0 newCls, 0 newAlos, 0 newAlks, 0 duplicates, 0 garbageCollecst, 
+c [STAT] FM(4) 7e-06 2PrdTime, 0 2PrAmos, 0 2PrLits, 2e-06 dedAloTime, 0 dedAlos, 
+c [STAT] FM(5) time: 0.003851 s,steps: 28356 cards: 0 failed: 4741 extLits: 0 redDegree: 0 probes: 5311 conflictProbes: 0 savedPreCls: 0 savedPostCls: 0 units: 12755
+c [STAT] DENSE 33 gaps
+c |  Simplification time:          0.02 s                                                                 |
+c |                                                                                                       |
+c ==============================[ Writing DIMACS ]=========================================================
+c =============================[ Writing Undo Info ]=======================================================
+c write undo for 270 clauses and 0 units
+c preprocessed 0 seconds
+c starting sparrow solver
+c Instance name       :  /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_47309
+c Number of variables :  307
+c Number of literals  :  614
+c Number of Clauses   :  2871
+c MaxNumOccurences    :  77
+c MaxClauseSize       :  6
+c MinClauseSize       :  3
+c Ratio               :  9.3518
+c Parameter setting   :  7 SAT
+
+c Sparrow 2014 Parameteres: 
+c c1                  : 6.5000
+c c2                  : 4
+c c3                  : 100000
+c smoothing prob.     : 0.830
+c seed                : 0
+c XOR implementation  : yes
+c using:              : random clause selection
+c maxTries            : 9223372036854775807
+c maxFlips            : 500000000
+c timeout             : 900sec
+c luby restarts       : yes
+c luby base           : 262144
+c keep assignement    : yes
+c sp sequence:        : 0.000, 0.100, 0.600, 1.000, 0.900, 0.600, 0.800, 0.600, 0.000, 
+c -->Starting solver  : 
+
+c UNKNOWN best(   2) current(   4) (4.00000        sec)
+c EndStatistics:
+c numFlips                      : 13722880 
+c numProbWalks                  : 13178951  (96.04%) 
+c gradientWalks                 : 543929    (3.96%) 
+c numSmooth                     : 0         (0.00%) 
+c numWeight                     : 0         (0.00%) 
+c Try CPU Time                  : 4.000   
+c totalTries                    : 508      
+c totalFlips                    : 500000000
+c flips/sec                     : 2580645 
+c Total CPU Time                : 193.750 sec
+c solved 194 seconds
+c parse model from /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_47309
+c WARNING: could not find any solution information!
+c opened var map /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_47309.map for reading ... 
+c use Riss 7.1
+c [STAT] CP3 0.01468 s-ppTime, 0 s-ipTime, 0.0146797 s-ppwTime, 0 s-ipwTime, 9 MB, ok 0.000664 s-ohTime, 
+c [STAT] CP3(2) 2617 cls, 0 learnts, -747 rem-cls, 0 rem-learnts, 
+c [STAT] UP 5e-06 s, 0 units, 0 cls, 0 lits
+c [STAT] SuSi(1) 0.000308 s, 0 cls,  with 0 lits, 0 strengthed 
+c [STAT] SuSi(2) 13279 subs-steps, 28430 strenght-steps, 0 increases, 0.000738s strengthening 
+c [STAT] EE 0.001301 s, 0 steps 0 ee-lits 0 removedCls, 0 removedSubCls,
+c [STAT] EE-gate 8.9e-05 s, 0 steps, 0.001017 extractGateTime, 
+c [STAT] BVE(1) 0.001915 s, 0.001131 s spent on subsimp, 48 vars tested, 47 anticipations, 582 vars skipped, 2564 checks, 
+c [STAT] BVE(2) 529 rem cls, with 1618 lits, 0 learnts rem, with 0 lits, 1276 new cls, with 5264 lits, 0 new learnts, with 0 lits, 
+c [STAT] BVE(3) 48 vars eliminated, 0 units enqueued, 0 BC removed, with 0 lits, 0 blocked learnts removed, with 0 lits, 
+c [STAT] BVE(4) 0 gateDefs, 0 usedGates, 4.7e-05 gateSeconds, 
+c [STAT] BVE(5) 44 incElims, 0 keepElims, 4 decElims, 747 totalAdds,
+c [STAT] UNHIDE 0.001923 s, 0 cls, 0 totalLits, 0 lits 
+c [STAT] UNHIDE(2) 0 prSecs, 0 prSteps, 0 L1units, 0 L2units, 0 L3units, 0 L4units, 0 L5units, 
+c [STAT] UNHIDE(3) 0 EE-checks, 0 EE-cands, 0 EEs 
+c [STAT] XOR 0.001321s, 0.001236 parse-s, 6.2e-05 reason-s, 
+c [STAT] XOR(2) 0 xors, 0 subXors, 0 resXors, 0 clauses, 0 resClauses, 0 resTauts, 0 resStrength, 4483 findChecks, 
+c [STAT] XOR(3) 0 steps, 680 empties, 0 listUnits, 0 useLists, 0 xorUnits, 0 eqs, 
+c [STAT] XOR(4) 2614 participating, 0.830896 ratio, 0 simDecisions, 0 xorProps, 0 clsProps, 
+c [STAT] BCE 0.001617 seconds, 18856 steps, 1168 testLits, 0 remBCE, 0 BCMs, 0 BCMcands, 0 BCMlits, 
+c [STAT] CLE 0 remCLE, 0 cleUnits, 
+c [STAT] BCE-CLA 0 seconds, 0 steps, 0 testLits, 0 extClss, 0 extLits, 0 possibles, 
+c [STAT] FM 0.005541 s, 0.00022 amo-s, 0.009096 fm-s, 0.001138 amt-s, 0 amos, 0 amts, 0 sameUnits, 0 deducedUnits, 0 propUnits, 0 cls, 0 steps, 28004 searchSteps, 0 addDups, 
+c [STAT] FM(2) 0 irregulars, 0 pureAmoLits, 0 diff, 0 discards, 0 addedCs, 0 removedCs, 0 newAmos, 0 discardedNewAmos, 
+c [STAT] FM(3) 0 newAmoBinCls, 0 newCls, 0 newAlos, 0 newAlks, 0 duplicates, 0 garbageCollecst, 
+c [STAT] FM(4) 7e-06 2PrdTime, 0 2PrAmos, 0 2PrLits, 3e-06 dedAloTime, 0 dedAlos, 
+c [STAT] FM(5) time: 0.003945 s,steps: 26489 cards: 0 failed: 4487 extLits: 0 redDegree: 0 probes: 5017 conflictProbes: 0 savedPreCls: 0 savedPostCls: 0 units: 11782
+c [STAT] DENSE 48 gaps
+c Riss 7.1 used 2 seconds with exit code 10
+c pp-time: 0 SLS-time: 194  CDCL-time: 2
+c solved with: Riss 7.1
+ c
+c SparrowToRiss 2018
+c Adrian Balint, Norbert Manthey
+c
+c undo: /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_47309 tmpCNF: /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_47309 model: /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_47309 realModel: /home/lorenz/SAT2018/s2r_bin/tmp/model_47309
+c preprocessed 0 seconds with exit code 0
+c not solved by preprocessor -- do search
+c post-process with coprocessor
+c WARNING: for repeatability, setting FPU to use double precision
+c =================[ riss (core) 7.1.0                    v7.1.0-dirty ]===================================
+c | Norbert Manthey. The use of the tool is limited to research only!                                     |
+c | Based on Minisat 2.2 and Glucose 2.1  -- thanks!                                                      |
+c | Contributors:                                                                                         |
+c |      Kilian Gebhardt                                                                                  |
+c |      Lucas Kahlert, Franziska Krüger, Aaron Stephan                                                   |
+c ============================[ Problem Statistics ]=======================================================
+c |                                                                                                       |
+c |  Number of variables:                340                                                              |
+c |  Number of clauses:                 1870                                                              |
+c |  Number of total literals:          5610                                                              |
+c |  Parse time:                        0.00 s                                                            |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * LBD Queue    :     50      |   * First     :   4000         |    * size <  30                     |
+c |   * Trail  Queue :   5000      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * K            :   0.80      |   * Special   :   1000         |                                     |
+c |   * R            :   1.40      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c =========================================================================================================
+c =========================================================================================================
+c | solve clauses:         2617  solve variables:          292                                            |
+c =========================================================================================================
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |        2         0     5000 |     340     2617     9256 |     1     8041       31     1958 |  0.001 % | 
+c |        2       155    10000 |     340     2617     9256 |     3     7136       55    12863 |  0.001 % | 
+c |        2       303    15000 |     340     2617     9256 |     3    17136       71    12863 |  0.001 % | 
+c |        2       451    20000 |     340     2617     9256 |     4    17954       81    22045 |  0.001 % | 
+c |        2       601    25000 |     340     2617     9256 |     5    16220       88    33779 |  0.001 % | 
+c |        6       753    10000 |     340     2617     9256 |     5    26220       98    33779 |  0.001 % | 
+c =========================================================================================================
+c Tinimt-Ratios: ratioCpW: 0.91 ,overhead/Total 0.13 0.12 
+c Timing(cpu,wall, in s): total: 1.96 2.16 ,prop: 1.44 1.60 ,analysis: 0.25 0.28 ,ext.Res.: 0.00 0.00 ,reduce: 0.01 0.01 ,overhead 0.25 0.26
+c PP-Timing(cpu,wall, in s): preprocessing( 1 ): 0.02 0.02 ,inprocessing (0 ): 0.00 0.00
+c Trivial Polarity: True: 0  False: 0
+c Learnt At Level 1: 0  Multiple: 0 Units: 0
+c LAs: 0.000000 laSeconds 0 LA assigned: 0 tabus: 0, failedLas: 0, maxEvery 0, eeV: 0 eeL: 0 
+c otfss: 0 (l1: 0 ),cls: 0 ,units: 0 ,binaries: 0, eagerCandidates: 0
+c learning: 62719 cls, 14.271879 avg. size, 9.412650 avg. LBD, 37 maxSize
+c res.ext.res.: 0 rer, 0 rerSizeCands, 0 sizeReject, 0 patternReject, 0 bloomReject, 0 maxSize, 0.00 avgSize, 0.00 totalLits, 0 gates
+c ER rewrite: 0 cls, 0 lits
+c i.cls.strengthening: 0.00 seconds, 0 calls, 0 candidates, 0 droppedBefore, 0 shrinked, 0 shrinkedLits
+c bi-asserting: 0 pre-Mini, 0 post-Mini, 0.000 rel-pre, 0.000 rel-post
+c search-UHLE: 0 attempts, 0 rem-lits
+c revMin: 8609 tries 23 succesful 23 dropped 0 cut 23 conflicts
+c decisionClauses: 0
+c IntervalRestarts: 0
+c partial restarts: 0 saved decisions: 0 saved propagations: 0 recursives: 1
+c uhd probe: 0.000000 s, 0 L2units, 0 L3units, 0 L4units
+c LCM: 0.000000 s, 0 nbLCM, 0 LCMclsAttempts, 0 nbLCMclsSuccess, 0 npConflLCMlits, 0 nbLCMlits, 0 falsified, 0 positiveDrop, 0 litsR1, 0 litsR2
+c restarts              : 7 (8959 conflicts in avg)
+c blocked restarts      : 784 (multiple: 4) 
+c last block at restart : 7
+c nb ReduceDB           : 5
+c nb removed Clauses    : 33779
+c nb learnts DL2        : 102
+c nb learnts size 2     : 0
+c nb learnts size 1     : 0
+c conflicts             : 62719          (31876 /sec)
+c decisions             : 74170          (0.00 % random) (37695 /sec)
+c propagations          : 2745934        (1395565 /sec)
+c conflict literals     : 895141         (23.09 % deleted)
+c nb reduced Clauses    : 0
+c Memory used           : 9.00 MB
+c CPU time              : 1.96761 s
+s SATISFIABLE
+v 1 -2 -3 4 -5 -6 7 8 9 -10 -11 -12 -13 -14 15 -16 -17 18 -19 -20 -21 -22 23 -24 -25 26 -27 28 29 30 31 -32 -33 34 -35 -36 37 -38 39 40 41 42 -43 44 -45 -46 47 48 49 -50 51 -52 -53 54 55 -56 -57 58 -59 60 61 -62 63 -64 65 -66 -67 68 69 -70 71 72 -73 74 -75 -76 77 -78 79 80 -81 82 83 -84 -85 -86 -87 88 -89 -90 -91 92 -93 94 95 96 -97 98 -99 -100 101 102 103 -104 -105 106 -107 108 -109 -110 -111 -112 113 114 -115 116 -117 -118 119 -120 -121 122 123 -124 -125 126 127 128 -129 130 -131 -132 133 134 135 136 137 -138 -139 -140 141 -142 -143 -144 -145 146 147 148 -149 -150 -151 152 -153 154 -155 156 -157 -158 -159 160 -161 -162 -163 -164 165 -166 167 -168 -169 170 -171 172 -173 -174 175 -176 177 178 179 180 -181 182 183 184 -185 -186 187 188 189 -190 191 -192 -193 -194 195 -196 -197 198 199 -200 201 202 -203 -204 -205 -206 207 208 -209 210 211 212 213 214 -215 216 217 -218 -219 220 221 -222 223 224 225 -226 227 228 229 -230 231 232 -233 234 235 -236 237 238 -239 240 -241 -242 -243 -244 245 246 247 248 249 -250 -251 -252 253 254 255 256 -257 -258 -259 -260 261 -262 -263 -264 -265 266 267 268 269 270 271 272 273 -274 -275 -276 277 278 279 280 281 -282 -283 -284 285 286 287 288 289 290 291 -292 293 -294 295 296 297 -298 -299 300 301 302 -303 -304 305 306 307 308 -309 -310 311 -312 313 314 315 -316 -317 -318 319 320 -321 -322 323 324 -325 326 -327 328 -329 330 331 332 -333 -334 -335 -336 -337 338 -339 -340 0
+

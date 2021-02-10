@@ -1,0 +1,100 @@
+c ====================[ Coprocessor 7.1.0                    v7.1.0-dirty ]================================
+c | Norbert Manthey. The use of the tool is limited to research only!                                     |
+c | Contributors:                                                                                         |
+c |     Kilian Gebhard                                                                                    |
+c |     Lucas Kahlert, Franziska Krüger, Aaron Stephan                                                    |
+c ============================[ Problem Statistics ]=======================================================
+c |                                                                                                       |
+c |  Number of variables:           400                                                                  |
+c |  Number of clauses:            2082                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c [STAT] CP3 0.018953 s-ppTime, 0 s-ipTime, 0.0189514 s-ppwTime, 0 s-ipwTime, 9 MB, ok 0.000834 s-ohTime, 
+c [STAT] CP3(2) 3084 cls, 0 learnts, -1002 rem-cls, 0 rem-learnts, 
+c [STAT] UP 8e-06 s, 0 units, 0 cls, 0 lits
+c [STAT] SuSi(1) 0.000632 s, 1 cls,  with 3 lits, 0 strengthed 
+c [STAT] SuSi(2) 15271 subs-steps, 25715 strenght-steps, 0 increases, 0.001322s strengthening 
+c [STAT] EE 0.002606 s, 0 steps 0 ee-lits 0 removedCls, 0 removedSubCls,
+c [STAT] EE-gate 0.000181 s, 0 steps, 0.002038 extractGateTime, 
+c [STAT] BVE(1) 0.001007 s, 0.000137 s spent on subsimp, 81 vars tested, 81 anticipations, 646 vars skipped, 4233 checks, 
+c [STAT] BVE(2) 455 rem cls, with 1408 lits, 0 learnts rem, with 0 lits, 1458 new cls, with 6000 lits, 0 new learnts, with 0 lits, 
+c [STAT] BVE(3) 31 vars eliminated, 0 units enqueued, 0 BC removed, with 0 lits, 0 blocked learnts removed, with 0 lits, 
+c [STAT] BVE(4) 0 gateDefs, 0 usedGates, 0 gateSeconds, 
+c [STAT] BVE(5) 30 incElims, 0 keepElims, 1 decElims, 1003 totalAdds,
+c [STAT] UNHIDE 0.00253 s, 0 cls, 0 totalLits, 0 lits 
+c [STAT] UNHIDE(2) 0 prSecs, 0 prSteps, 0 L1units, 0 L2units, 0 L3units, 0 L4units, 0 L5units, 
+c [STAT] UNHIDE(3) 0 EE-checks, 0 EE-cands, 0 EEs 
+c [STAT] XOR 0.001547s, 0.001465 parse-s, 6.9e-05 reason-s, 
+c [STAT] XOR(2) 0 xors, 0 subXors, 0 resXors, 0 clauses, 0 resClauses, 0 resTauts, 0 resStrength, 5162 findChecks, 
+c [STAT] XOR(3) 0 steps, 800 empties, 0 listUnits, 0 useLists, 0 xorUnits, 0 eqs, 
+c [STAT] XOR(4) 3081 participating, 0.870585 ratio, 0 simDecisions, 0 xorProps, 0 clsProps, 
+c [STAT] BCE 0.001879 seconds, 21872 steps, 1472 testLits, 0 remBCE, 0 BCMs, 0 BCMcands, 0 BCMlits, 
+c [STAT] CLE 0 remCLE, 0 cleUnits, 
+c [STAT] BCE-CLA 0 seconds, 0 steps, 0 testLits, 0 extClss, 0 extLits, 0 possibles, 
+c [STAT] FM 0.006174 s, 0.000234 amo-s, 0.00941 fm-s, 0.001306 amt-s, 0 amos, 0 amts, 0 sameUnits, 0 deducedUnits, 0 propUnits, 0 cls, 0 steps, 32119 searchSteps, 0 addDups, 
+c [STAT] FM(2) 0 irregulars, 0 pureAmoLits, 0 diff, 0 discards, 0 addedCs, 0 removedCs, 0 newAmos, 0 discardedNewAmos, 
+c [STAT] FM(3) 0 newAmoBinCls, 0 newCls, 0 newAlos, 0 newAlks, 0 duplicates, 0 garbageCollecst, 
+c [STAT] FM(4) 8e-06 2PrdTime, 0 2PrAmos, 0 2PrLits, 3e-06 dedAloTime, 0 dedAlos, 
+c [STAT] FM(5) time: 0.004373 s,steps: 30242 cards: 0 failed: 5165 extLits: 0 redDegree: 0 probes: 5713 conflictProbes: 3 savedPreCls: 0 savedPostCls: 0 units: 13457
+c [STAT] DENSE 31 gaps
+c |  Simplification time:          0.02 s                                                                 |
+c |                                                                                                       |
+c ==============================[ Writing DIMACS ]=========================================================
+c =============================[ Writing Undo Info ]=======================================================
+c write undo for 248 clauses and 0 units
+c preprocessed 0 seconds
+c starting sparrow solver
+c Instance name       :  /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_53836
+c Number of variables :  369
+c Number of literals  :  738
+c Number of Clauses   :  3084
+c MaxNumOccurences    :  55
+c MaxClauseSize       :  5
+c MinClauseSize       :  3
+c Ratio               :  8.3577
+c Parameter setting   :  5 SAT
+
+c Sparrow 2014 Parameteres: 
+c c1                  : 2.8500
+c c2                  : 4
+c c3                  : 75000
+c smoothing prob.     : 1.000
+c seed                : 0
+c XOR implementation  : yes
+c using:              : random clause selection
+c maxTries            : 9223372036854775807
+c maxFlips            : 500000000
+c timeout             : 900sec
+c luby restarts       : yes
+c luby base           : 262144
+c keep assignement    : yes
+c sp sequence:        : 0.000, 0.100, 0.600, 1.000, 0.900, 0.600, 0.800, 0.600, 0.000, 
+c -->Starting solver  : 
+
+c EndStatistics:
+c numFlips                      : 58347    
+c numProbWalks                  : 13786     (23.63%) 
+c gradientWalks                 : 44561     (76.37%) 
+c numSmooth                     : 0         (0.00%) 
+c numWeight                     : 13785     (23.63%) 
+c Try CPU Time                  : 0.050   
+c totalTries                    : 0        
+c totalFlips                    : 58346    
+c flips/sec                     : 1166920 
+c Total CPU Time                : 0.050   sec
+c solved 0 seconds
+c parse model from /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_53836
+c opened var map /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_53836.map for reading ... 
+c pp-time: 0 SLS-time: 0  CDCL-time: 0
+c solved with: sparrow
+ c
+c SparrowToRiss 2018
+c Adrian Balint, Norbert Manthey
+c
+c undo: /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_53836 tmpCNF: /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_53836 model: /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_53836 realModel: /home/lorenz/SAT2018/s2r_bin/tmp/model_53836
+c preprocessed 0 seconds with exit code 0
+c not solved by preprocessor -- do search
+c post-process with coprocessor
+c verify model ...
+s SATISFIABLE
+v -1 2 3 -4 5 6 7 8 -9 10 -11 12 13 -14 15 -16 -17 18 -19 -20 21 22 -23 24 25 -26 -27 -28 29 -30 -31 32 -33 34 -35 -36 37 38 -39 40 41 -42 43 44 -45 -46 47 -48 -49 -50 -51 52 -53 -54 55 56 -57 -58 59 60 61 -62 63 64 -65 -66 -67 -68 -69 70 -71 -72 73 74 75 -76 77 78 79 80 -81 -82 83 84 85 -86 87 88 89 -90 91 -92 -93 94 -95 96 -97 -98 -99 -100 101 102 -103 -104 105 106 107 -108 109 110 -111 112 -113 -114 -115 116 -117 118 119 120 121 122 -123 -124 125 126 127 -128 129 130 -131 132 133 -134 -135 -136 -137 138 139 140 -141 -142 143 -144 -145 146 -147 148 149 150 151 152 153 -154 155 156 157 -158 -159 -160 -161 162 163 -164 -165 -166 167 -168 -169 -170 171 172 -173 174 -175 176 177 -178 179 180 -181 182 183 -184 -185 186 187 -188 189 190 191 -192 -193 -194 -195 196 197 198 -199 200 201 202 -203 -204 205 -206 -207 208 209 210 211 212 -213 214 -215 -216 217 -218 -219 -220 221 -222 -223 -224 225 226 227 -228 -229 -230 231 232 233 -234 -235 -236 -237 238 239 240 241 -242 243 -244 -245 -246 247 -248 -249 -250 251 252 -253 -254 255 -256 -257 258 -259 260 -261 -262 263 -264 -265 -266 -267 -268 269 -270 271 272 273 274 -275 -276 -277 278 -279 280 281 282 283 284 285 -286 -287 -288 289 -290 -291 -292 -293 -294 295 -296 -297 -298 299 -300 -301 -302 -303 -304 305 306 -307 308 -309 -310 -311 312 313 -314 -315 316 -317 -318 319 320 321 322 323 -324 -325 326 -327 -328 -329 330 -331 -332 -333 -334 -335 336 337 -338 339 -340 -341 342 343 344 345 -346 347 -348 349 350 -351 352 -353 -354 -355 -356 357 358 -359 -360 361 362 363 364 -365 366 367 -368 369 370 -371 372 373 374 375 376 -377 -378 -379 -380 -381 -382 383 384 385 386 -387 -388 389 -390 391 -392 -393 394 -395 396 397 398 -399 -400 0
+

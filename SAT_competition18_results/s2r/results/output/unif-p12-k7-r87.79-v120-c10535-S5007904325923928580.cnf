@@ -1,0 +1,100 @@
+c ====================[ Coprocessor 7.1.0                    v7.1.0-dirty ]================================
+c | Norbert Manthey. The use of the tool is limited to research only!                                     |
+c | Contributors:                                                                                         |
+c |     Kilian Gebhard                                                                                    |
+c |     Lucas Kahlert, Franziska Krüger, Aaron Stephan                                                    |
+c ============================[ Problem Statistics ]=======================================================
+c |                                                                                                       |
+c |  Number of variables:           120                                                                  |
+c |  Number of clauses:           10535                                                                   |
+c |  Parse time:                   0.01 s                                                                 |
+c [STAT] CP3 0.219579 s-ppTime, 0 s-ipTime, 0.219581 s-ppwTime, 0 s-ipwTime, 10 MB, ok 0.002685 s-ohTime, 
+c [STAT] CP3(2) 10535 cls, 0 learnts, 0 rem-cls, 0 rem-learnts, 
+c [STAT] UP 2e-06 s, 0 units, 0 cls, 0 lits
+c [STAT] SuSi(1) 0.055078 s, 0 cls,  with 0 lits, 0 strengthed 
+c [STAT] SuSi(2) 2991891 subs-steps, 6106959 strenght-steps, 0 increases, 0.123518s strengthening 
+c [STAT] EE 0.000352 s, 0 steps 0 ee-lits 0 removedCls, 0 removedSubCls,
+c [STAT] EE-gate 8e-05 s, 0 steps, 0.000152 extractGateTime, 
+c [STAT] BVE(1) 1.9e-05 s, 2e-06 s spent on subsimp, 0 vars tested, 0 anticipations, 120 vars skipped, 0 checks, 
+c [STAT] BVE(2) 0 rem cls, with 0 lits, 0 learnts rem, with 0 lits, 0 new cls, with 0 lits, 0 new learnts, with 0 lits, 
+c [STAT] BVE(3) 0 vars eliminated, 0 units enqueued, 0 BC removed, with 0 lits, 0 blocked learnts removed, with 0 lits, 
+c [STAT] BVE(4) 0 gateDefs, 0 usedGates, 0 gateSeconds, 
+c [STAT] BVE(5) 0 incElims, 0 keepElims, 0 decElims, 0 totalAdds,
+c [STAT] UNHIDE 0.01109 s, 0 cls, 0 totalLits, 0 lits 
+c [STAT] UNHIDE(2) 0 prSecs, 0 prSteps, 0 L1units, 0 L2units, 0 L3units, 0 L4units, 0 L5units, 
+c [STAT] UNHIDE(3) 0 EE-checks, 0 EE-cands, 0 EEs 
+c [STAT] XOR 0.005839s, 0.005811 parse-s, 2e-05 reason-s, 
+c [STAT] XOR(2) 0 xors, 0 subXors, 0 resXors, 0 clauses, 0 resClauses, 0 resTauts, 0 resStrength, 21068 findChecks, 
+c [STAT] XOR(3) 0 steps, 240 empties, 0 listUnits, 0 useLists, 0 xorUnits, 0 eqs, 
+c [STAT] XOR(4) 10534 participating, 0.999905 ratio, 0 simDecisions, 0 xorProps, 0 clsProps, 
+c [STAT] BCE 0.018298 seconds, 197508 steps, 480 testLits, 0 remBCE, 0 BCMs, 0 BCMcands, 0 BCMlits, 
+c [STAT] CLE 0 remCLE, 0 cleUnits, 
+c [STAT] BCE-CLA 0 seconds, 0 steps, 0 testLits, 0 extClss, 0 extLits, 0 possibles, 
+c [STAT] FM 0.00249 s, 9.7e-05 amo-s, 0.023113 fm-s, 0.000418 amt-s, 0 amos, 0 amts, 0 sameUnits, 0 deducedUnits, 0 propUnits, 0 cls, 0 steps, 147490 searchSteps, 0 addDups, 
+c [STAT] FM(2) 0 irregulars, 0 pureAmoLits, 0 diff, 0 discards, 0 addedCs, 0 removedCs, 0 newAmos, 0 discardedNewAmos, 
+c [STAT] FM(3) 0 newAmoBinCls, 0 newCls, 0 newAlos, 0 newAlks, 0 duplicates, 0 garbageCollecst, 
+c [STAT] FM(4) 2e-06 2PrdTime, 0 2PrAmos, 0 2PrLits, 1e-06 dedAloTime, 0 dedAlos, 
+c [STAT] FM(5) time: 0.001695 s,steps: 42140 cards: 0 failed: 0 extLits: 0 redDegree: 0 probes: 0 conflictProbes: 0 savedPreCls: 0 savedPostCls: 0 units: 0
+c [STAT] DENSE 0 gaps
+c |  Simplification time:          0.22 s                                                                 |
+c |                                                                                                       |
+c ==============================[ Writing DIMACS ]=========================================================
+c =============================[ Writing Undo Info ]=======================================================
+c write undo for 0 clauses and 0 units
+c preprocessed 1 seconds
+c starting sparrow solver
+c Instance name       :  /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_50504
+c Number of variables :  120
+c Number of literals  :  240
+c Number of Clauses   :  10535
+c MaxNumOccurences    :  352
+c MaxClauseSize       :  7
+c MinClauseSize       :  7
+c Ratio               :  87.7917
+c Parameter setting   :  7 SAT
+
+c Sparrow 2014 Parameteres: 
+c c1                  : 6.5000
+c c2                  : 4
+c c3                  : 100000
+c smoothing prob.     : 0.830
+c seed                : 0
+c XOR implementation  : yes
+c using:              : random clause selection
+c maxTries            : 9223372036854775807
+c maxFlips            : 500000000
+c timeout             : 900sec
+c luby restarts       : yes
+c luby base           : 262144
+c keep assignement    : yes
+c sp sequence:        : 0.000, 0.100, 0.600, 1.000, 0.900, 0.600, 0.800, 0.600, 0.000, 
+c -->Starting solver  : 
+
+c EndStatistics:
+c numFlips                      : 115397   
+c numProbWalks                  : 47647     (41.29%) 
+c gradientWalks                 : 67750     (58.71%) 
+c numSmooth                     : 38098     (33.01%) 
+c numWeight                     : 9548      (8.27%) 
+c Try CPU Time                  : 0.250   
+c totalTries                    : 15       
+c totalFlips                    : 8504004  
+c flips/sec                     : 452581  
+c Total CPU Time                : 18.790  sec
+c solved 18 seconds
+c parse model from /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_50504
+c opened var map /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_50504.map for reading ... 
+c pp-time: 1 SLS-time: 18  CDCL-time: 0
+c solved with: sparrow
+ c
+c SparrowToRiss 2018
+c Adrian Balint, Norbert Manthey
+c
+c undo: /home/lorenz/SAT2018/s2r_bin/tmp/cp_undo_50504 tmpCNF: /home/lorenz/SAT2018/s2r_bin/tmp/cp_tmpCNF_50504 model: /home/lorenz/SAT2018/s2r_bin/tmp/cp_model_50504 realModel: /home/lorenz/SAT2018/s2r_bin/tmp/model_50504
+c preprocessed 1 seconds with exit code 0
+c not solved by preprocessor -- do search
+c post-process with coprocessor
+c verify model ...
+s SATISFIABLE
+v 1 2 -3 -4 5 6 -7 -8 -9 10 -11 -12 13 14 15 -16 17 -18 19 -20 21 22 23 -24 25 -26 27 -28 29 -30 31 32 -33 34 35 36 -37 -38 39 40 -41 42 43 44 45 46 47 48 49 -50 -51 52 -53 -54 55 56 -57 58 -59 60 -61 -62 -63 64 65 66 67 68 69 -70 -71 72 73 74 -75 76 -77 78 79 -80 -81 82 83 84 -85 -86 -87 -88 -89 90 -91 92 93 -94 95 96 -97 98 -99 -100 -101 102 -103 104 -105 106 -107 -108 109 110 -111 112 113 114 115 -116 117 118 -119 120 0
+

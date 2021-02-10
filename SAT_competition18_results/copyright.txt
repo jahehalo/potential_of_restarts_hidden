@@ -1,0 +1,5 @@
+The files in the folders "s2r" and "probSAT_old" have previously been published by Jan-Hendrik Lorenz and Florian Wörz in 
+"On the Effect of Learned Clauses on Stochastic Local Search"
+(see https://zenodo.org/record/3776052).
+
+This work is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
